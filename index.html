@@ -1,17 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Job Portal</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WORKio - Search Jobs</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-<body>
 
-    <h1>Job Portal</h1>
+    </head>
 
-    <p>Find your next career opportunity.</p>
+    <body>
 
-</body>
+        <!-- Header  Section-->
+         <header>
+            <div id = "navbar" class="obj-width">
+                <a href="index.html"><img class = "logo" src="images/logo.png" alt=""></a>
+
+                <ul id = "menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="/jobs/job.html">Browse Jobs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <button id="w-btn" onclick="window.location.href='contact.html'">Join</button>
+                </ul>
+                <i id = "bar" class='bx bx-menu'></i>
+            </div>
+         </header>
+
+
+        <!-- Hero  Section-->
+        <section class="hero">
+            <div class="hero-box obj-width">
+                <div class="h-left">
+                    <h1>Find the perfect job for your dream career and unlock exciting opportunities that shape your future success, growth and stability.</h1>
+                    <P>Discover thousands of verified jobs from top companies across multiple industries, enhance your professional skills, gain valuable experience, and connect directly with trusted recruiters worldwide. </P>
+                    <div class="search">
+                        <input type="text" placeholder="Search your job here... ">
+                        <a id="g-btn" href="#">Search</a>
+                    </div>
+                </div>
+
+
+                <div class="h-right">
+                    <img src="images/hero1.PNG" alt="">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Features  Section-->
+         <section class="features sec-space obj-width">
+            <h2>Get Things Done Faster With Trusted Freelance Experts</h2>
+            <p>Discover top-rated professionals for every task and achieve results efficiently </p>
+            
+            <div class="fe-box">
+                <div>
+                    <img src="images/fe 1.png" alt="">
+                    <h3>Create & Publish Your Job Instantly</h3>
+                    <p>Describe your requirement, set your budget, and reach skilled professionals within minutes.</p>
+                </div>
+                <div>
+                    <img src="images/fe 2.png" alt="">
+                    <h3>Hire Skilled Freelancers With Confidence</h3>
+                    <p>Compare profiles, reviews, and portfolios to choose the perfect expert for your project.</p>
+                </div>
+                <div>
+                    <img src="images/fe 3.png" alt="">
+                    <h3>Secure Payments With Full Transparency</h3>
+                    <p>Pay safely through protected transactions and release funds only after work satisfaction.</p>
+                </div>
+                <div>
+                    <img src="images/fe 4.png" alt="">
+                    <h3>Dedicated Support Whenever You Need</h3>
+                    <p>Our support team is always ready to assist you at every step of your journey.</p>
+                </div>
+            </div>
+         </section>
+
+
+        <!-- Job Listing  Section-->
+         <section class="jobs sec-space obj-width">
+            <h2>Job in demand</h2>
+            <p>Most viewed and all-time-top-selling services</p>
+
+            <ul class="job-id">
+                <li data-target="all" class="active">Recent Jobs</li>
+                <li data-target="freelancer">Freelancer</li>
+                <li data-target="fulltime">Full Time</li>
+                <li data-target="partTime">Part Time</li>
+
+            </ul>
+            <div class="jobs-container">
+                <li data-item="fulltime"  class="jlist">
+                    <img src="images/google.png" alt="">
+                    <h3>Web Developer</h3>
+                    <p>12-16LPA</p>
+                    <span id="key">Full Time</span>
+                </li>
+                <li data-item="freelancer"  class="jlist">
+                    <img src="images/uber.png" alt="">
+                    <h3>Freelancer</h3>
+                    <p>1300 per hour</p>
+                    <span id="key">Freelancer</span>
+                </li>
+                <li data-item="partTime"  class="jlist">
+                    <img src="images/linkedin.png" alt="">
+                    <h3>Business Associates</h3>
+                    <p>6-7LPA</p>
+                    <span id="key">Part Time</span>
+                </li>
+                <li data-item="fulltime"  class="jlist">
+                    <img src="images/facebook.png" alt="">
+                    <h3>Digital Marketing</h3>
+                    <p>11-14LPA</p>
+                    <span id="key">Full Time</span>
+                </li>
+                <li data-item="partTime"  class="jlist">
+                    <img src="images/yahoo.png" alt="">
+                    <h3>User Experience</h3>
+                    <p>5-8LPA</p>
+                    <span id="key">Full Time</span>
+                </li>
+            </div>
+
+         </section>
+
+
+        <!-- Brand  Section-->
+         <section class="trust sec-space obj-width">
+            <h2>Trusted by the world's best</h2>
+            <p>Most viewed and all-time top-selling services</p>
+
+            <div class="t-box">
+                <img src="images/t1.png" alt="">
+                <img src="images/t2.png" alt="">
+                <img src="images/t3.png" alt="">
+                <img src="images/t4.png" alt="">
+                <img src="images/t5.png" alt="">
+                <img src="images/t6.png" alt="">
+            </div>
+         </section>
+
+
+        <!-- Team  Section-->
+         <section class="team sec-space obj-width">
+            <h2>Highest Rated Freelancer</h2>
+            <p>Most viewed and all-time top-selling services</p>
+            <div class="team-container">
+                <div class="f1-box">
+                    <img src="images/fl-1.png" alt="">
+                    <h3>Suneeta Yadav</h3>
+                    <div class="skill">
+                        <span id="key">HTML</span>
+                        <span id="key">Python</span>
+                        <span id="key">JavaScript</span>
+                    </div>
+
+                    <a href="#" id="g-btn">View Profile</a>
+                </div>
+                <div class="f1-box">
+                    <img src="images/fl-2.png" alt="">
+                    <h3>Deepanshi Singh</h3>
+                    <div class="skill">
+                        <span id="key">HTML</span>
+                        <span id="key">CSS</span>
+                        <span id="key">C++</span>
+                    </div>
+
+                    <a href="#" id="g-btn">View Profile</a>
+                </div>
+
+                <div class="f1-box">
+                    <img src="images/fl-3.png" alt="">
+                    <h3>Sonu Kumar</h3>
+                    <div class="skill">
+                        <span id="key">Node.js</span>
+                        <span id="key">Python</span>
+                        <span id="key">Bootstap</span>
+                    </div>
+
+                    <a href="#" id="g-btn">View Profile</a>
+                </div>
+
+                <div class="f1-box">
+                    <img src="images/fl-4.png" alt="">
+                    <h3>Akanksha Yadav</h3>
+                    <div class="skill">
+                        <span id="key">python</span>
+                        <span id="key">Django</span>
+                        <span id="key">RESTApi</span>
+                    </div>
+
+                    <a href="#" id="g-btn">View Profile</a>
+                </div>
+
+            </div>
+         </section>
+
+        <!-- Footer  Section-->
+         
+        <footer class="footer">
+            <div class="obj-width">
+                <div class="top">
+                    <div>
+                        <img class="logo" src="images/logo.png" alt="">
+                        <p>Search your desired jobs</p>
+                    </div>
+                    <div>
+                        <a href="#"><i class='bx bxl-instagram'></i></a>
+                        <a href="#"><i class='bx bxl-facebook-square'></i></a>
+                        <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                    </div>
+                </div>
+
+                <div class="bottom">
+                    <div>
+                        <h3>Project</h3>
+                        <a href="#">Changelog</a>
+                        <a href="#">Status</a>
+                        <a href="#">License</a>
+                        <a href="#">All Versions</a>
+                    </div>
+                    <div>
+                        <h3>Community</h3>
+                        <a href="https://github.com/Srivastavachestha">Github</a>
+                        <a href="#">Issues</a>
+                        <a href="https://github.com/Srivastavachestha?tab=repositories">Repositary</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                    <div>
+                        <h3>Help</h3>
+                        <a href="#">Support</a>
+                        <a href="#">Troubleshooting</a>
+                        <a href="#">Contact Us</a>
+                    </div>
+                    <div>
+                        <h3>Others</h3>
+                        <a href="#">Terms of Services</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">License</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+        <script src="toggle.js"></script>
+    </body>
+
 </html>
