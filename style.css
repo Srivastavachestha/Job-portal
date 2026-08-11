@@ -42,3 +42,65 @@ h3 {
     max-width: 90%;
     margin: auto;
 }
+#w-btn {
+    margin-left: 40px;
+    background-color: #fff;
+    color: #1f4a40;
+    padding: 9px 30px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    box-shadow: none;
+    border: none;
+}
+
+#g-btn {
+    text-decoration: none;
+    background-color: #51a995;
+    color: #fff;
+    padding: 9px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Navbar */
+
+header {
+    background-color: #1f4a40;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+
+#navbar .logo {
+    width: 220px;
+}
+
+#menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+#menu li a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+#bar {
+    color: #fff;
+    display: none;
+}
