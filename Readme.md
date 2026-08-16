@@ -30,6 +30,14 @@ A fully responsive job portal website built with HTML, CSS, and JavaScript. Conn
 - **Fonts**: Google Fonts (Poppins)
 - **Design**: Custom CSS with mobile-first approach
 
+## 📚 Learning & Inspiration
+
+This project was developed as part of my web development learning journey.
+I followed a YouTube tutorial series to understand the implementation and
+then customized the project with my own content, links, styling, and modifications.
+
+**Learning Resource:** [YouTube Tutorial Series](https://youtube.com/playlist?list=PL9bD98LkBR7ONxaKGJjcP0aWXgTNbOwno&si=Kaxge1_UFpNgpjsi)
+
 ## 📁 Project Structure
 ```
 JOB_PORTAL/
