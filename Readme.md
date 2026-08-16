@@ -33,10 +33,11 @@ A fully responsive job portal website built with HTML, CSS, and JavaScript. Conn
 ## 📚 Learning & Inspiration
 
 This project was developed as part of my web development learning journey.
-I followed a YouTube tutorial series to understand the implementation and
-then customized the project with my own content, links, styling, and modifications.
+The project was built by following a YouTube tutorial series to understand
+HTML, CSS, and JavaScript concepts, with additional customization and
+modifications made to the original implementation.
 
-**Learning Resource:** [YouTube Tutorial Series](https://youtube.com/playlist?list=PL9bD98LkBR7ONxaKGJjcP0aWXgTNbOwno&si=Kaxge1_UFpNgpjsi)
+**Tutorial Series:** [YouTube Playlist](https://youtube.com/playlist?list=PL9bD98LkBR7ONxaKGJjcP0aWXgTNbOwno&si=Kaxge1_UFpNgpjsi)
 
 ## 📁 Project Structure
 ```
