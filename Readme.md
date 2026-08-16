@@ -84,8 +84,8 @@ JOB_PORTAL/
 
 1. **Clone the repository**
 ```bash
-   git clone https://github.com/Srivastavachestha/JOB_PORTAL.git
-   cd JOB_PORTAL
+   git clone https://github.com/Srivastavachestha/Job-portal.git
+   cd Job-portal
 ```
 
 2. **Update email configuration**
